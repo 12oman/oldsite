@@ -23,4 +23,15 @@ body {
     color: #e81c4f;
     text-decoration: underline;
   }
+img {
+    max-width: 60%;
+    padding: 10px;
+    border-radius: 2%;
+}
+ul {
+    list-style-type: square;
+}
+s {
+    color: #C9F364;
+}
   /* Tennis ball color #C9F364 */
