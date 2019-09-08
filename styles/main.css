@@ -1,10 +1,12 @@
 body {
+    column-count: 2;
     margin: 0 auto;
     max-width: 50em;
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
     padding: 4em 1em;
     color: #555;
+    background-color: #f5e9dc;
 }
 
   h1
@@ -32,10 +34,15 @@ ul {
     list-style-type: square;
 }
 s {
-    color: #fcba03;
+    color: #624f78; 
+   <!-- old color: #fcba03;-->
 }
 .side-section {
+  
   color: #36c221;
 }
+
+
+
 
   /* Tennis ball color #C9F364 */
