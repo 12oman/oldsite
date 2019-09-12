@@ -55,7 +55,6 @@ aside {
   grid-row: 3;
   display: flex;
   break-inside: avoid;
-  width: 80vw;
   /* background-image: linear-gradient(red, orangered);
   background-size: cover;
   background-blend-mode: difference; 
@@ -140,7 +139,7 @@ nav {
   background-position: center;
 
 }
-/* Kia ora etc */
+/* Kia ora World bit with cutout etc */
 header {
   /* padding-left: 14.59%;
   padding-bottom: 5.5%; */
