@@ -1,0 +1,75 @@
+<!-- // this is a toy program so needs to be fun, so it's going to be a bubble calculator
+// using p5.js as a javascript library to make a hovering screen where the results are displayed as bubbles
+//
+// html will hold calculator buttons inside divs
+// to stay on theme css will style the divs as circle buttons with a rollover and hover style
+// will need 
+//           4 cols:
+//          0   1   2   3
+// 5 rows:
+// row0:    C   ÷   X   %   
+//
+// row1:    7   8   9   -   
+// 
+// row2:    4   5   6   +    
+//
+// row3:    1   2   3   = 
+
+// row4:    AC  0   .   = 
+//
+// the 'screen' will be a bubble generator which recieves the result of the javascript -->
+
+<html>
+<head>
+    <title>
+        Bubble Calculator
+    </title>
+    <link href="calcstyle.css" rel="stylesheet" type="text/css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="calculator.js"></script>
+    <!-- p5.js dependecies: -->
+    <script src="p5.js"></script>
+    <script src="p5.dom.js"></script>
+    <script src="sketch.js"></script>
+    
+
+</head>
+<body>
+    <div class="calc-body"> Test body
+        <div id="display">TEST DISPLAY</div>
+        <div class="keypad">    
+            <div class="row">  <!-- row0:    C   ÷   X   % -->
+                <button id="clear" class ="button" value="C">C</button>
+                <button id="divide" class="button" value="/">÷</button>
+                <button id="times" class="button" value="*">X</button>
+                <button id="percentage" class="button" value="%">%</button>
+            </div>
+            <div class="row"> <!-- // row1:    7   8   9   -   -->
+                <button id="seven" class="button" value="7">7</button>
+                <button id="eight" class="button" value="8">8</button>
+                <button id="nine" class="button" value="9">9</button>
+                <button id="subtract" class="button" value="-">-</button>    
+            </div>  
+            <div class="row"> <!-- // row2:    4   5   6   + -->
+                <button id="four" class="button" value="4">4</button>
+                <button id="five" class="button" value="5">5</button>
+                <button id="six" class="button" value="6">6</button>
+                <button id="plus" class="button" value="+">+</button>
+            </div>
+            <div class="row"> <!-- // row3:    1   2   3  -->
+                <button id="one" class="button" value="1">1</button>
+                <button id="two" class="button" value="2">2</button>
+                <button id="three" class="button" value="3">3</button>     
+            </div>
+            <div class="row"> <!-- // row4:    AC  0   .   =  -->
+                <button id="clear" class ="button" value="AC">AC</button>    
+                <button id="zero" class="button" value="0">0</button>
+                <button id="decimal" class="button" value=".">.</button>
+                <button id="equals" class="button big" value="=">=</button> 
+            </div>
+        </div> <!-- closing keypad -->  
+    </div> <!-- closing calc-body -->
+    
+</body>
+</html>
