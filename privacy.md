@@ -1,1 +1,3 @@
+# Privacy Policy
 
+- [x] Checkmark
